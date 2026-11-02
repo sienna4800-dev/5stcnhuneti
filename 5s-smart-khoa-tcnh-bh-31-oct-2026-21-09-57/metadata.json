@@ -1,0 +1,6 @@
+{
+  "name": "5S SMART – KHOA TCNH&BH",
+  "description": "Hệ thống quản trị và kiểm tra 5S thông minh Khoa Tài chính Ngân hàng & Bảo hiểm với mã QR phòng và AI hỗ trợ đánh giá qua ảnh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

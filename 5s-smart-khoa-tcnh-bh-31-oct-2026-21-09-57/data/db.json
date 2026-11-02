@@ -1,0 +1,2135 @@
+{
+  "rooms": [
+    {
+      "id": "PTH01",
+      "name": "Phòng thực hành 1",
+      "type": "LAB",
+      "location": "",
+      "manager": "",
+      "specificNotes": "Bàn ghế, máy tính, thiết bị, dây điện, vệ sinh và bố trí phòng",
+      "checklist": [
+        {
+          "id": "S1-01",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-01",
+          "name": "Loại bỏ vật dụng không cần thiết tại khu vực làm việc",
+          "description": "Không để vật dụng không cần thiết, đồ cũ hỏng hoặc đồ dùng cá nhân bừa bãi tại bàn, sàn và lối đi.",
+          "guidelines": "Kiểm tra mặt bàn, gầm bàn, góc phòng. Chỉ để lại những đồ dùng phục vụ công việc và học tập trong ngày."
+        },
+        {
+          "id": "S1-02",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-02",
+          "name": "Rà soát và phân loại tài liệu theo nhu cầu",
+          "description": "Tài liệu, giáo trình, đề cương, bài thi được phân loại rõ: đang xử lý, lưu trữ hay chờ hủy.",
+          "guidelines": "Không để tài liệu lộn xộn, rách nát. Không yêu cầu xóa/hủy tài liệu khi chưa có quyết định lưu trữ."
+        },
+        {
+          "id": "S1-03",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-03",
+          "name": "Vật dụng hỏng hoặc chờ xử lý được tách riêng",
+          "description": "Thiết bị, máy tính, bàn ghế hỏng phải được cách ly, dán nhãn nhận diện chờ thanh lý hoặc sửa chữa.",
+          "guidelines": "Khu vực cách ly có biển báo hoặc thẻ đỏ, không để lẫn với thiết bị đang hoạt động tốt."
+        },
+        {
+          "id": "S2-01",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-01",
+          "name": "Hồ sơ, dụng cụ có vị trí cố định và nhãn nhận diện",
+          "description": "Bàn ghế, máy tính, tài liệu có vị trí cố định theo sơ đồ, có nhãn tên rõ ràng.",
+          "guidelines": "Dễ tìm, dễ lấy, dễ trả lại trong vòng 30 giây. Bàn phím, chuột kê ngay ngắn."
+        },
+        {
+          "id": "S2-02",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-02",
+          "name": "Thiết bị dùng chung được bố trí thuận tiện",
+          "description": "Máy chiếu, micro, bút lông bảng, bảng giảng dạy, điều khiển điều hòa ở vị trí quy định.",
+          "guidelines": "Bố trí tại nơi dễ tiếp cận, có ký hiệu nhận diện và hướng dẫn sử dụng nhanh."
+        },
+        {
+          "id": "S2-03",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-03",
+          "name": "Lối đi thông thoáng, dây điện được sắp xếp gọn gàng",
+          "description": "Dây nguồn máy tính, dây mạng, cáp mở rộng được đi nẹp, bó gọn, không chùng võng trên sàn hay lối đi.",
+          "guidelines": "Lối đi chính tối thiểu 0.8m, cửa ra vào và lối thoát hiểm không bị vật cản che chắn."
+        },
+        {
+          "id": "S3-01",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-01",
+          "name": "Vệ sinh bàn, tủ, sàn nhà và thiết bị",
+          "description": "Mặt bàn, màn hình máy tính, bàn phím, bề mặt tủ và sàn nhà sạch sẽ, không bám bụi bẩn, mạng nhện.",
+          "guidelines": "Kiểm tra các góc khuất, chân bàn, gầm tủ và khe cắm thiết bị CNTT."
+        },
+        {
+          "id": "S3-02",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-02",
+          "name": "Thu gom rác đúng nơi quy định",
+          "description": "Thùng rác có túi lót, có nắp đậy, không để rác tràn và được đổ định kỳ cuối ngày.",
+          "guidelines": "Không để cốc nước uống dở, vỏ bánh kẹo trên bàn máy tính hay ngăn kéo."
+        },
+        {
+          "id": "S3-03",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-03",
+          "name": "Khu vực được vệ sinh và thu dọn sau khi sử dụng",
+          "description": "Kết thúc ca học/giờ làm việc, giảng viên và sinh viên thu dọn đồ dùng, lau bảng sạch sẽ.",
+          "guidelines": "Bảng lau sạch, rèm cửa đóng/mở theo quy định phòng học."
+        },
+        {
+          "id": "S4-01",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-01",
+          "name": "Có hướng dẫn hoặc tiêu chuẩn bố trí phù hợp",
+          "description": "Có bảng quy định 5S, sơ đồ chỗ ngồi/bố trí thiết bị được niêm yết rõ ràng tại phòng.",
+          "guidelines": "Bảng trực quan, dễ đọc, dán ở vị trí cửa ra vào hoặc bảng thông báo phòng."
+        },
+        {
+          "id": "S4-02",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-02",
+          "name": "Có phân công trách nhiệm và lịch kiểm tra",
+          "description": "Có danh sách cán bộ/giảng viên/sinh viên trực nhật phụ trách 5S và lịch tự kiểm tra định kỳ.",
+          "guidelines": "Kiểm tra bảng phân công trực nhật và sổ theo dõi của phòng."
+        },
+        {
+          "id": "S4-03",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-03",
+          "name": "Duy trì các điều kiện 5S giữa những lần kiểm tra",
+          "description": "Các kết quả 3S trước đó được giữ gìn liên tục, không để tái diễn tình trạng bừa bộn.",
+          "guidelines": "Đối chiếu với biên bản kiểm tra kỳ trước để xem tính liên tục."
+        },
+        {
+          "id": "S5-01",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-01",
+          "name": "Người sử dụng tuân thủ nghiêm túc quy định khu vực",
+          "description": "Sinh viên và cán bộ giảng viên tuân thủ trang phục, tác phong và nội quy phòng thực hành/văn phòng.",
+          "guidelines": "Không mang thức ăn vào phòng máy tính, không tự ý di chuyển máy móc cáp nối."
+        },
+        {
+          "id": "S5-02",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-02",
+          "name": "Vật dụng và thiết bị được hoàn trả đúng vị trí khi kết thúc",
+          "description": "Tắt màn hình/máy tính, tắt điều hòa, tắt điện, ghế được đẩy sát gầm bàn ngay ngắn.",
+          "guidelines": "Quan sát trạng thái phòng khi không có người sử dụng hoặc sau giờ học."
+        },
+        {
+          "id": "S5-03",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-03",
+          "name": "Chủ động ghi nhận và khắc phục các bất cập phát sinh",
+          "description": "Cán bộ phụ trách và người dùng chủ động báo cáo hỏng hóc hoặc tự chấn chỉnh khi thấy mất trật tự.",
+          "guidelines": "Kiểm tra sổ nhật ký phòng máy hoặc nhật ký vận hành văn phòng."
+        }
+      ],
+      "createdAt": "2026-10-31T12:06:00.118Z",
+      "updatedAt": "2026-10-31T12:06:00.118Z"
+    },
+    {
+      "id": "PTH02",
+      "name": "Phòng thực hành 2",
+      "type": "LAB",
+      "location": "",
+      "manager": "",
+      "specificNotes": "Bàn ghế, máy tính, thiết bị, dây điện, vệ sinh và bố trí phòng",
+      "checklist": [
+        {
+          "id": "S1-01",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-01",
+          "name": "Loại bỏ vật dụng không cần thiết tại khu vực làm việc",
+          "description": "Không để vật dụng không cần thiết, đồ cũ hỏng hoặc đồ dùng cá nhân bừa bãi tại bàn, sàn và lối đi.",
+          "guidelines": "Kiểm tra mặt bàn, gầm bàn, góc phòng. Chỉ để lại những đồ dùng phục vụ công việc và học tập trong ngày."
+        },
+        {
+          "id": "S1-02",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-02",
+          "name": "Rà soát và phân loại tài liệu theo nhu cầu",
+          "description": "Tài liệu, giáo trình, đề cương, bài thi được phân loại rõ: đang xử lý, lưu trữ hay chờ hủy.",
+          "guidelines": "Không để tài liệu lộn xộn, rách nát. Không yêu cầu xóa/hủy tài liệu khi chưa có quyết định lưu trữ."
+        },
+        {
+          "id": "S1-03",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-03",
+          "name": "Vật dụng hỏng hoặc chờ xử lý được tách riêng",
+          "description": "Thiết bị, máy tính, bàn ghế hỏng phải được cách ly, dán nhãn nhận diện chờ thanh lý hoặc sửa chữa.",
+          "guidelines": "Khu vực cách ly có biển báo hoặc thẻ đỏ, không để lẫn với thiết bị đang hoạt động tốt."
+        },
+        {
+          "id": "S2-01",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-01",
+          "name": "Hồ sơ, dụng cụ có vị trí cố định và nhãn nhận diện",
+          "description": "Bàn ghế, máy tính, tài liệu có vị trí cố định theo sơ đồ, có nhãn tên rõ ràng.",
+          "guidelines": "Dễ tìm, dễ lấy, dễ trả lại trong vòng 30 giây. Bàn phím, chuột kê ngay ngắn."
+        },
+        {
+          "id": "S2-02",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-02",
+          "name": "Thiết bị dùng chung được bố trí thuận tiện",
+          "description": "Máy chiếu, micro, bút lông bảng, bảng giảng dạy, điều khiển điều hòa ở vị trí quy định.",
+          "guidelines": "Bố trí tại nơi dễ tiếp cận, có ký hiệu nhận diện và hướng dẫn sử dụng nhanh."
+        },
+        {
+          "id": "S2-03",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-03",
+          "name": "Lối đi thông thoáng, dây điện được sắp xếp gọn gàng",
+          "description": "Dây nguồn máy tính, dây mạng, cáp mở rộng được đi nẹp, bó gọn, không chùng võng trên sàn hay lối đi.",
+          "guidelines": "Lối đi chính tối thiểu 0.8m, cửa ra vào và lối thoát hiểm không bị vật cản che chắn."
+        },
+        {
+          "id": "S3-01",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-01",
+          "name": "Vệ sinh bàn, tủ, sàn nhà và thiết bị",
+          "description": "Mặt bàn, màn hình máy tính, bàn phím, bề mặt tủ và sàn nhà sạch sẽ, không bám bụi bẩn, mạng nhện.",
+          "guidelines": "Kiểm tra các góc khuất, chân bàn, gầm tủ và khe cắm thiết bị CNTT."
+        },
+        {
+          "id": "S3-02",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-02",
+          "name": "Thu gom rác đúng nơi quy định",
+          "description": "Thùng rác có túi lót, có nắp đậy, không để rác tràn và được đổ định kỳ cuối ngày.",
+          "guidelines": "Không để cốc nước uống dở, vỏ bánh kẹo trên bàn máy tính hay ngăn kéo."
+        },
+        {
+          "id": "S3-03",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-03",
+          "name": "Khu vực được vệ sinh và thu dọn sau khi sử dụng",
+          "description": "Kết thúc ca học/giờ làm việc, giảng viên và sinh viên thu dọn đồ dùng, lau bảng sạch sẽ.",
+          "guidelines": "Bảng lau sạch, rèm cửa đóng/mở theo quy định phòng học."
+        },
+        {
+          "id": "S4-01",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-01",
+          "name": "Có hướng dẫn hoặc tiêu chuẩn bố trí phù hợp",
+          "description": "Có bảng quy định 5S, sơ đồ chỗ ngồi/bố trí thiết bị được niêm yết rõ ràng tại phòng.",
+          "guidelines": "Bảng trực quan, dễ đọc, dán ở vị trí cửa ra vào hoặc bảng thông báo phòng."
+        },
+        {
+          "id": "S4-02",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-02",
+          "name": "Có phân công trách nhiệm và lịch kiểm tra",
+          "description": "Có danh sách cán bộ/giảng viên/sinh viên trực nhật phụ trách 5S và lịch tự kiểm tra định kỳ.",
+          "guidelines": "Kiểm tra bảng phân công trực nhật và sổ theo dõi của phòng."
+        },
+        {
+          "id": "S4-03",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-03",
+          "name": "Duy trì các điều kiện 5S giữa những lần kiểm tra",
+          "description": "Các kết quả 3S trước đó được giữ gìn liên tục, không để tái diễn tình trạng bừa bộn.",
+          "guidelines": "Đối chiếu với biên bản kiểm tra kỳ trước để xem tính liên tục."
+        },
+        {
+          "id": "S5-01",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-01",
+          "name": "Người sử dụng tuân thủ nghiêm túc quy định khu vực",
+          "description": "Sinh viên và cán bộ giảng viên tuân thủ trang phục, tác phong và nội quy phòng thực hành/văn phòng.",
+          "guidelines": "Không mang thức ăn vào phòng máy tính, không tự ý di chuyển máy móc cáp nối."
+        },
+        {
+          "id": "S5-02",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-02",
+          "name": "Vật dụng và thiết bị được hoàn trả đúng vị trí khi kết thúc",
+          "description": "Tắt màn hình/máy tính, tắt điều hòa, tắt điện, ghế được đẩy sát gầm bàn ngay ngắn.",
+          "guidelines": "Quan sát trạng thái phòng khi không có người sử dụng hoặc sau giờ học."
+        },
+        {
+          "id": "S5-03",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-03",
+          "name": "Chủ động ghi nhận và khắc phục các bất cập phát sinh",
+          "description": "Cán bộ phụ trách và người dùng chủ động báo cáo hỏng hóc hoặc tự chấn chỉnh khi thấy mất trật tự.",
+          "guidelines": "Kiểm tra sổ nhật ký phòng máy hoặc nhật ký vận hành văn phòng."
+        }
+      ],
+      "createdAt": "2026-10-31T12:06:00.118Z",
+      "updatedAt": "2026-10-31T12:06:00.118Z"
+    },
+    {
+      "id": "VPK",
+      "name": "Văn phòng khoa",
+      "type": "OFFICE",
+      "location": "",
+      "manager": "",
+      "specificNotes": "Bàn làm việc, tủ hồ sơ, tài liệu, thiết bị dùng chung, vệ sinh và lối đi",
+      "checklist": [
+        {
+          "id": "S1-01",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-01",
+          "name": "Loại bỏ vật dụng không cần thiết tại khu vực làm việc",
+          "description": "Không để vật dụng không cần thiết, đồ cũ hỏng hoặc đồ dùng cá nhân bừa bãi tại bàn, sàn và lối đi.",
+          "guidelines": "Kiểm tra mặt bàn, gầm bàn, góc phòng. Chỉ để lại những đồ dùng phục vụ công việc và học tập trong ngày."
+        },
+        {
+          "id": "S1-02",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-02",
+          "name": "Rà soát và phân loại tài liệu theo nhu cầu",
+          "description": "Tài liệu, giáo trình, đề cương, bài thi được phân loại rõ: đang xử lý, lưu trữ hay chờ hủy.",
+          "guidelines": "Không để tài liệu lộn xộn, rách nát. Không yêu cầu xóa/hủy tài liệu khi chưa có quyết định lưu trữ."
+        },
+        {
+          "id": "S1-03",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-03",
+          "name": "Vật dụng hỏng hoặc chờ xử lý được tách riêng",
+          "description": "Thiết bị, máy tính, bàn ghế hỏng phải được cách ly, dán nhãn nhận diện chờ thanh lý hoặc sửa chữa.",
+          "guidelines": "Khu vực cách ly có biển báo hoặc thẻ đỏ, không để lẫn với thiết bị đang hoạt động tốt."
+        },
+        {
+          "id": "S2-01",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-01",
+          "name": "Hồ sơ, dụng cụ có vị trí cố định và nhãn nhận diện",
+          "description": "Bàn ghế, máy tính, tài liệu có vị trí cố định theo sơ đồ, có nhãn tên rõ ràng.",
+          "guidelines": "Dễ tìm, dễ lấy, dễ trả lại trong vòng 30 giây. Bàn phím, chuột kê ngay ngắn."
+        },
+        {
+          "id": "S2-02",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-02",
+          "name": "Thiết bị dùng chung được bố trí thuận tiện",
+          "description": "Máy chiếu, micro, bút lông bảng, bảng giảng dạy, điều khiển điều hòa ở vị trí quy định.",
+          "guidelines": "Bố trí tại nơi dễ tiếp cận, có ký hiệu nhận diện và hướng dẫn sử dụng nhanh."
+        },
+        {
+          "id": "S2-03",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-03",
+          "name": "Lối đi thông thoáng, dây điện được sắp xếp gọn gàng",
+          "description": "Dây nguồn máy tính, dây mạng, cáp mở rộng được đi nẹp, bó gọn, không chùng võng trên sàn hay lối đi.",
+          "guidelines": "Lối đi chính tối thiểu 0.8m, cửa ra vào và lối thoát hiểm không bị vật cản che chắn."
+        },
+        {
+          "id": "S3-01",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-01",
+          "name": "Vệ sinh bàn, tủ, sàn nhà và thiết bị",
+          "description": "Mặt bàn, màn hình máy tính, bàn phím, bề mặt tủ và sàn nhà sạch sẽ, không bám bụi bẩn, mạng nhện.",
+          "guidelines": "Kiểm tra các góc khuất, chân bàn, gầm tủ và khe cắm thiết bị CNTT."
+        },
+        {
+          "id": "S3-02",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-02",
+          "name": "Thu gom rác đúng nơi quy định",
+          "description": "Thùng rác có túi lót, có nắp đậy, không để rác tràn và được đổ định kỳ cuối ngày.",
+          "guidelines": "Không để cốc nước uống dở, vỏ bánh kẹo trên bàn máy tính hay ngăn kéo."
+        },
+        {
+          "id": "S3-03",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-03",
+          "name": "Khu vực được vệ sinh và thu dọn sau khi sử dụng",
+          "description": "Kết thúc ca học/giờ làm việc, giảng viên và sinh viên thu dọn đồ dùng, lau bảng sạch sẽ.",
+          "guidelines": "Bảng lau sạch, rèm cửa đóng/mở theo quy định phòng học."
+        },
+        {
+          "id": "S4-01",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-01",
+          "name": "Có hướng dẫn hoặc tiêu chuẩn bố trí phù hợp",
+          "description": "Có bảng quy định 5S, sơ đồ chỗ ngồi/bố trí thiết bị được niêm yết rõ ràng tại phòng.",
+          "guidelines": "Bảng trực quan, dễ đọc, dán ở vị trí cửa ra vào hoặc bảng thông báo phòng."
+        },
+        {
+          "id": "S4-02",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-02",
+          "name": "Có phân công trách nhiệm và lịch kiểm tra",
+          "description": "Có danh sách cán bộ/giảng viên/sinh viên trực nhật phụ trách 5S và lịch tự kiểm tra định kỳ.",
+          "guidelines": "Kiểm tra bảng phân công trực nhật và sổ theo dõi của phòng."
+        },
+        {
+          "id": "S4-03",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-03",
+          "name": "Duy trì các điều kiện 5S giữa những lần kiểm tra",
+          "description": "Các kết quả 3S trước đó được giữ gìn liên tục, không để tái diễn tình trạng bừa bộn.",
+          "guidelines": "Đối chiếu với biên bản kiểm tra kỳ trước để xem tính liên tục."
+        },
+        {
+          "id": "S5-01",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-01",
+          "name": "Người sử dụng tuân thủ nghiêm túc quy định khu vực",
+          "description": "Sinh viên và cán bộ giảng viên tuân thủ trang phục, tác phong và nội quy phòng thực hành/văn phòng.",
+          "guidelines": "Không mang thức ăn vào phòng máy tính, không tự ý di chuyển máy móc cáp nối."
+        },
+        {
+          "id": "S5-02",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-02",
+          "name": "Vật dụng và thiết bị được hoàn trả đúng vị trí khi kết thúc",
+          "description": "Tắt màn hình/máy tính, tắt điều hòa, tắt điện, ghế được đẩy sát gầm bàn ngay ngắn.",
+          "guidelines": "Quan sát trạng thái phòng khi không có người sử dụng hoặc sau giờ học."
+        },
+        {
+          "id": "S5-03",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-03",
+          "name": "Chủ động ghi nhận và khắc phục các bất cập phát sinh",
+          "description": "Cán bộ phụ trách và người dùng chủ động báo cáo hỏng hóc hoặc tự chấn chỉnh khi thấy mất trật tự.",
+          "guidelines": "Kiểm tra sổ nhật ký phòng máy hoặc nhật ký vận hành văn phòng."
+        }
+      ],
+      "createdAt": "2026-10-31T12:06:00.118Z",
+      "updatedAt": "2026-10-31T12:06:00.118Z"
+    },
+    {
+      "id": "FBC",
+      "name": "Không gian sinh hoạt CLB FBC",
+      "type": "MEETING",
+      "location": "",
+      "manager": "Vũ Minh Tuấn",
+      "specificNotes": "Bàn ghế làm việc nhóm, bảng ý tưởng, tủ đồ lưu niệm và tài liệu sinh hoạt CLB",
+      "checklist": [
+        {
+          "id": "S1-01",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-01",
+          "name": "Loại bỏ vật dụng không cần thiết tại khu vực làm việc",
+          "description": "Không để vật dụng không cần thiết, đồ cũ hỏng hoặc đồ dùng cá nhân bừa bãi tại bàn, sàn và lối đi.",
+          "guidelines": "Kiểm tra mặt bàn, gầm bàn, góc phòng. Chỉ để lại những đồ dùng phục vụ công việc và học tập trong ngày."
+        },
+        {
+          "id": "S1-02",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-02",
+          "name": "Rà soát và phân loại tài liệu theo nhu cầu",
+          "description": "Tài liệu, giáo trình, đề cương, bài thi được phân loại rõ: đang xử lý, lưu trữ hay chờ hủy.",
+          "guidelines": "Không để tài liệu lộn xộn, rách nát. Không yêu cầu xóa/hủy tài liệu khi chưa có quyết định lưu trữ."
+        },
+        {
+          "id": "S1-03",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-03",
+          "name": "Vật dụng hỏng hoặc chờ xử lý được tách riêng",
+          "description": "Thiết bị, máy tính, bàn ghế hỏng phải được cách ly, dán nhãn nhận diện chờ thanh lý hoặc sửa chữa.",
+          "guidelines": "Khu vực cách ly có biển báo hoặc thẻ đỏ, không để lẫn với thiết bị đang hoạt động tốt."
+        },
+        {
+          "id": "S2-01",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-01",
+          "name": "Hồ sơ, dụng cụ có vị trí cố định và nhãn nhận diện",
+          "description": "Bàn ghế, máy tính, tài liệu có vị trí cố định theo sơ đồ, có nhãn tên rõ ràng.",
+          "guidelines": "Dễ tìm, dễ lấy, dễ trả lại trong vòng 30 giây. Bàn phím, chuột kê ngay ngắn."
+        },
+        {
+          "id": "S2-02",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-02",
+          "name": "Thiết bị dùng chung được bố trí thuận tiện",
+          "description": "Máy chiếu, micro, bút lông bảng, bảng giảng dạy, điều khiển điều hòa ở vị trí quy định.",
+          "guidelines": "Bố trí tại nơi dễ tiếp cận, có ký hiệu nhận diện và hướng dẫn sử dụng nhanh."
+        },
+        {
+          "id": "S2-03",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-03",
+          "name": "Lối đi thông thoáng, dây điện được sắp xếp gọn gàng",
+          "description": "Dây nguồn máy tính, dây mạng, cáp mở rộng được đi nẹp, bó gọn, không chùng võng trên sàn hay lối đi.",
+          "guidelines": "Lối đi chính tối thiểu 0.8m, cửa ra vào và lối thoát hiểm không bị vật cản che chắn."
+        },
+        {
+          "id": "S3-01",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-01",
+          "name": "Vệ sinh bàn, tủ, sàn nhà và thiết bị",
+          "description": "Mặt bàn, màn hình máy tính, bàn phím, bề mặt tủ và sàn nhà sạch sẽ, không bám bụi bẩn, mạng nhện.",
+          "guidelines": "Kiểm tra các góc khuất, chân bàn, gầm tủ và khe cắm thiết bị CNTT."
+        },
+        {
+          "id": "S3-02",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-02",
+          "name": "Thu gom rác đúng nơi quy định",
+          "description": "Thùng rác có túi lót, có nắp đậy, không để rác tràn và được đổ định kỳ cuối ngày.",
+          "guidelines": "Không để cốc nước uống dở, vỏ bánh kẹo trên bàn máy tính hay ngăn kéo."
+        },
+        {
+          "id": "S3-03",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-03",
+          "name": "Khu vực được vệ sinh và thu dọn sau khi sử dụng",
+          "description": "Kết thúc ca học/giờ làm việc, giảng viên và sinh viên thu dọn đồ dùng, lau bảng sạch sẽ.",
+          "guidelines": "Bảng lau sạch, rèm cửa đóng/mở theo quy định phòng học."
+        },
+        {
+          "id": "S4-01",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-01",
+          "name": "Có hướng dẫn hoặc tiêu chuẩn bố trí phù hợp",
+          "description": "Có bảng quy định 5S, sơ đồ chỗ ngồi/bố trí thiết bị được niêm yết rõ ràng tại phòng.",
+          "guidelines": "Bảng trực quan, dễ đọc, dán ở vị trí cửa ra vào hoặc bảng thông báo phòng."
+        },
+        {
+          "id": "S4-02",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-02",
+          "name": "Có phân công trách nhiệm và lịch kiểm tra",
+          "description": "Có danh sách cán bộ/giảng viên/sinh viên trực nhật phụ trách 5S và lịch tự kiểm tra định kỳ.",
+          "guidelines": "Kiểm tra bảng phân công trực nhật và sổ theo dõi của phòng."
+        },
+        {
+          "id": "S4-03",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-03",
+          "name": "Duy trì các điều kiện 5S giữa những lần kiểm tra",
+          "description": "Các kết quả 3S trước đó được giữ gìn liên tục, không để tái diễn tình trạng bừa bộn.",
+          "guidelines": "Đối chiếu với biên bản kiểm tra kỳ trước để xem tính liên tục."
+        },
+        {
+          "id": "S5-01",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-01",
+          "name": "Người sử dụng tuân thủ nghiêm túc quy định khu vực",
+          "description": "Sinh viên và cán bộ giảng viên tuân thủ trang phục, tác phong và nội quy phòng thực hành/văn phòng.",
+          "guidelines": "Không mang thức ăn vào phòng máy tính, không tự ý di chuyển máy móc cáp nối."
+        },
+        {
+          "id": "S5-02",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-02",
+          "name": "Vật dụng và thiết bị được hoàn trả đúng vị trí khi kết thúc",
+          "description": "Tắt màn hình/máy tính, tắt điều hòa, tắt điện, ghế được đẩy sát gầm bàn ngay ngắn.",
+          "guidelines": "Quan sát trạng thái phòng khi không có người sử dụng hoặc sau giờ học."
+        },
+        {
+          "id": "S5-03",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-03",
+          "name": "Chủ động ghi nhận và khắc phục các bất cập phát sinh",
+          "description": "Cán bộ phụ trách và người dùng chủ động báo cáo hỏng hóc hoặc tự chấn chỉnh khi thấy mất trật tự.",
+          "guidelines": "Kiểm tra sổ nhật ký phòng máy hoặc nhật ký vận hành văn phòng."
+        }
+      ],
+      "lastInspectedAt": "2026-10-29T12:06:00.118Z",
+      "lastScore": 86.7,
+      "lastResult": "EXCELLENT",
+      "openTaskCount": 0,
+      "createdAt": "2026-10-01T12:06:00.118Z",
+      "updatedAt": "2026-10-29T12:06:00.118Z"
+    },
+    {
+      "id": "KTS",
+      "name": "Không gian lưu trữ số của khoa",
+      "type": "OFFICE",
+      "location": "",
+      "manager": "",
+      "specificNotes": "Máy chủ nội bộ, tủ đĩa lưu trữ, hệ thống mạng và lưu trữ số đề thi",
+      "checklist": [
+        {
+          "id": "S1-01",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-01",
+          "name": "Loại bỏ vật dụng không cần thiết tại khu vực làm việc",
+          "description": "Không để vật dụng không cần thiết, đồ cũ hỏng hoặc đồ dùng cá nhân bừa bãi tại bàn, sàn và lối đi.",
+          "guidelines": "Kiểm tra mặt bàn, gầm bàn, góc phòng. Chỉ để lại những đồ dùng phục vụ công việc và học tập trong ngày."
+        },
+        {
+          "id": "S1-02",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-02",
+          "name": "Rà soát và phân loại tài liệu theo nhu cầu",
+          "description": "Tài liệu, giáo trình, đề cương, bài thi được phân loại rõ: đang xử lý, lưu trữ hay chờ hủy.",
+          "guidelines": "Không để tài liệu lộn xộn, rách nát. Không yêu cầu xóa/hủy tài liệu khi chưa có quyết định lưu trữ."
+        },
+        {
+          "id": "S1-03",
+          "category": "S1",
+          "categoryName": "Sàng lọc (Seiri)",
+          "code": "S1-03",
+          "name": "Vật dụng hỏng hoặc chờ xử lý được tách riêng",
+          "description": "Thiết bị, máy tính, bàn ghế hỏng phải được cách ly, dán nhãn nhận diện chờ thanh lý hoặc sửa chữa.",
+          "guidelines": "Khu vực cách ly có biển báo hoặc thẻ đỏ, không để lẫn với thiết bị đang hoạt động tốt."
+        },
+        {
+          "id": "S2-01",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-01",
+          "name": "Hồ sơ, dụng cụ có vị trí cố định và nhãn nhận diện",
+          "description": "Bàn ghế, máy tính, tài liệu có vị trí cố định theo sơ đồ, có nhãn tên rõ ràng.",
+          "guidelines": "Dễ tìm, dễ lấy, dễ trả lại trong vòng 30 giây. Bàn phím, chuột kê ngay ngắn."
+        },
+        {
+          "id": "S2-02",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-02",
+          "name": "Thiết bị dùng chung được bố trí thuận tiện",
+          "description": "Máy chiếu, micro, bút lông bảng, bảng giảng dạy, điều khiển điều hòa ở vị trí quy định.",
+          "guidelines": "Bố trí tại nơi dễ tiếp cận, có ký hiệu nhận diện và hướng dẫn sử dụng nhanh."
+        },
+        {
+          "id": "S2-03",
+          "category": "S2",
+          "categoryName": "Sắp xếp (Seiton)",
+          "code": "S2-03",
+          "name": "Lối đi thông thoáng, dây điện được sắp xếp gọn gàng",
+          "description": "Dây nguồn máy tính, dây mạng, cáp mở rộng được đi nẹp, bó gọn, không chùng võng trên sàn hay lối đi.",
+          "guidelines": "Lối đi chính tối thiểu 0.8m, cửa ra vào và lối thoát hiểm không bị vật cản che chắn."
+        },
+        {
+          "id": "S3-01",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-01",
+          "name": "Vệ sinh bàn, tủ, sàn nhà và thiết bị",
+          "description": "Mặt bàn, màn hình máy tính, bàn phím, bề mặt tủ và sàn nhà sạch sẽ, không bám bụi bẩn, mạng nhện.",
+          "guidelines": "Kiểm tra các góc khuất, chân bàn, gầm tủ và khe cắm thiết bị CNTT."
+        },
+        {
+          "id": "S3-02",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-02",
+          "name": "Thu gom rác đúng nơi quy định",
+          "description": "Thùng rác có túi lót, có nắp đậy, không để rác tràn và được đổ định kỳ cuối ngày.",
+          "guidelines": "Không để cốc nước uống dở, vỏ bánh kẹo trên bàn máy tính hay ngăn kéo."
+        },
+        {
+          "id": "S3-03",
+          "category": "S3",
+          "categoryName": "Sạch sẽ (Seiso)",
+          "code": "S3-03",
+          "name": "Khu vực được vệ sinh và thu dọn sau khi sử dụng",
+          "description": "Kết thúc ca học/giờ làm việc, giảng viên và sinh viên thu dọn đồ dùng, lau bảng sạch sẽ.",
+          "guidelines": "Bảng lau sạch, rèm cửa đóng/mở theo quy định phòng học."
+        },
+        {
+          "id": "S4-01",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-01",
+          "name": "Có hướng dẫn hoặc tiêu chuẩn bố trí phù hợp",
+          "description": "Có bảng quy định 5S, sơ đồ chỗ ngồi/bố trí thiết bị được niêm yết rõ ràng tại phòng.",
+          "guidelines": "Bảng trực quan, dễ đọc, dán ở vị trí cửa ra vào hoặc bảng thông báo phòng."
+        },
+        {
+          "id": "S4-02",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-02",
+          "name": "Có phân công trách nhiệm và lịch kiểm tra",
+          "description": "Có danh sách cán bộ/giảng viên/sinh viên trực nhật phụ trách 5S và lịch tự kiểm tra định kỳ.",
+          "guidelines": "Kiểm tra bảng phân công trực nhật và sổ theo dõi của phòng."
+        },
+        {
+          "id": "S4-03",
+          "category": "S4",
+          "categoryName": "Săn sóc (Seiketsu)",
+          "code": "S4-03",
+          "name": "Duy trì các điều kiện 5S giữa những lần kiểm tra",
+          "description": "Các kết quả 3S trước đó được giữ gìn liên tục, không để tái diễn tình trạng bừa bộn.",
+          "guidelines": "Đối chiếu với biên bản kiểm tra kỳ trước để xem tính liên tục."
+        },
+        {
+          "id": "S5-01",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-01",
+          "name": "Người sử dụng tuân thủ nghiêm túc quy định khu vực",
+          "description": "Sinh viên và cán bộ giảng viên tuân thủ trang phục, tác phong và nội quy phòng thực hành/văn phòng.",
+          "guidelines": "Không mang thức ăn vào phòng máy tính, không tự ý di chuyển máy móc cáp nối."
+        },
+        {
+          "id": "S5-02",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-02",
+          "name": "Vật dụng và thiết bị được hoàn trả đúng vị trí khi kết thúc",
+          "description": "Tắt màn hình/máy tính, tắt điều hòa, tắt điện, ghế được đẩy sát gầm bàn ngay ngắn.",
+          "guidelines": "Quan sát trạng thái phòng khi không có người sử dụng hoặc sau giờ học."
+        },
+        {
+          "id": "S5-03",
+          "category": "S5",
+          "categoryName": "Sẵn sàng (Shitsuke)",
+          "code": "S5-03",
+          "name": "Chủ động ghi nhận và khắc phục các bất cập phát sinh",
+          "description": "Cán bộ phụ trách và người dùng chủ động báo cáo hỏng hóc hoặc tự chấn chỉnh khi thấy mất trật tự.",
+          "guidelines": "Kiểm tra sổ nhật ký phòng máy hoặc nhật ký vận hành văn phòng."
+        }
+      ],
+      "lastInspectedAt": "2026-10-26T12:06:00.118Z",
+      "lastScore": 73.3,
+      "lastResult": "PASSED",
+      "openTaskCount": 1,
+      "createdAt": "2026-10-01T12:06:00.118Z",
+      "updatedAt": "2026-10-26T12:06:00.118Z"
+    }
+  ],
+  "inspections": [
+    {
+      "id": "INSP-20261025-01",
+      "roomId": "PTH01",
+      "roomName": "Phòng thực hành 1",
+      "roomType": "LAB",
+      "inspectorId": "admin_tcnh",
+      "inspectorName": "TS. Nguyễn Văn Thịnh",
+      "inspectorRole": "ADMIN",
+      "evaluationSource": "AI_ASSISTED",
+      "aiModel": "gemini-3.8-flash",
+      "aiAnalyzedAt": "2026-10-25T12:06:00.118Z",
+      "officialScore": 86.7,
+      "officialResult": "EXCELLENT",
+      "totalCriteria": 15,
+      "applicableCriteria": 15,
+      "passedCriteria": 13,
+      "failedCriteria": 2,
+      "naCriteria": 0,
+      "aiCoveragePercentage": 87,
+      "aiPreliminaryScore": 84.6,
+      "photos": [
+        {
+          "id": "p1",
+          "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
+          "name": "Toàn cảnh phòng máy 1.jpg",
+          "contextNote": "Toàn cảnh phòng từ cửa vào",
+          "timestamp": "2026-10-25T12:06:00.118Z"
+        },
+        {
+          "id": "p2",
+          "url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=60",
+          "name": "Dãy bàn thực hành 2.jpg",
+          "contextNote": "Bàn phím và dây nguồn máy tính",
+          "timestamp": "2026-10-25T12:06:00.118Z"
+        }
+      ],
+      "decisions": [
+        {
+          "criterionId": "S1-01",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-02",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-03",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-01",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-02",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-03",
+          "status": "FAILED",
+          "userNotes": "Dây điện dãy 2 còn thõng xuống lối đi",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-01",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-02",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-03",
+          "status": "FAILED",
+          "userNotes": "Thùng rác cuối phòng chưa đổ cuối ca",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-01",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-02",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-03",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-01",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-02",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-03",
+          "status": "PASSED",
+          "userNotes": "Đạt yêu cầu",
+          "isOverriddenFromAI": false
+        }
+      ],
+      "createdAt": "2026-10-25T12:06:00.118Z"
+    },
+    {
+      "id": "INSP-20261026-02",
+      "roomId": "VPK",
+      "roomName": "Văn phòng khoa",
+      "roomType": "OFFICE",
+      "inspectorId": "leader_tcnh",
+      "inspectorName": "PGS.TS. Trần Thị Mai",
+      "inspectorRole": "LEADER",
+      "evaluationSource": "MANUAL",
+      "officialScore": 93.3,
+      "officialResult": "EXCELLENT",
+      "totalCriteria": 15,
+      "applicableCriteria": 15,
+      "passedCriteria": 14,
+      "failedCriteria": 1,
+      "naCriteria": 0,
+      "photos": [],
+      "decisions": [
+        {
+          "criterionId": "S1-01",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-02",
+          "status": "FAILED",
+          "userNotes": "Một số hồ sơ cũ chưa dán nhãn định danh thời hạn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-03",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-01",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-02",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-03",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-01",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-02",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-03",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-01",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-02",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-03",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-01",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-02",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-03",
+          "status": "PASSED",
+          "userNotes": "Tốt",
+          "isOverriddenFromAI": false
+        }
+      ],
+      "createdAt": "2026-10-26T12:06:00.118Z"
+    },
+    {
+      "id": "INSP-20261027-03",
+      "roomId": "PTH02",
+      "roomName": "Phòng thực hành 2",
+      "roomType": "LAB",
+      "inspectorId": "lecturer_tcnh",
+      "inspectorName": "ThS. Lê Hoàng Hải",
+      "inspectorRole": "LECTURER",
+      "evaluationSource": "AI_ASSISTED",
+      "aiModel": "gemini-3.8-flash",
+      "officialScore": 73.3,
+      "officialResult": "FAILED",
+      "totalCriteria": 15,
+      "applicableCriteria": 15,
+      "passedCriteria": 11,
+      "failedCriteria": 4,
+      "naCriteria": 0,
+      "aiCoveragePercentage": 80,
+      "photos": [],
+      "decisions": [
+        {
+          "criterionId": "S1-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-03",
+          "status": "FAILED",
+          "userNotes": "Chưa đạt tiêu chuẩn 5S",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-03",
+          "status": "FAILED",
+          "userNotes": "Chưa đạt tiêu chuẩn 5S",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-01",
+          "status": "FAILED",
+          "userNotes": "Chưa đạt tiêu chuẩn 5S",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-02",
+          "status": "FAILED",
+          "userNotes": "Chưa đạt tiêu chuẩn 5S",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        }
+      ],
+      "createdAt": "2026-10-27T12:06:00.118Z"
+    },
+    {
+      "id": "INSP-20261028-04",
+      "roomId": "FBC",
+      "roomName": "Không gian sinh hoạt CLB FBC",
+      "roomType": "MEETING",
+      "inspectorId": "student_fbc",
+      "inspectorName": "Vũ Minh Tuấn",
+      "inspectorRole": "STUDENT",
+      "evaluationSource": "MANUAL",
+      "officialScore": 86.7,
+      "officialResult": "EXCELLENT",
+      "totalCriteria": 15,
+      "applicableCriteria": 15,
+      "passedCriteria": 13,
+      "failedCriteria": 2,
+      "naCriteria": 0,
+      "photos": [],
+      "decisions": [
+        {
+          "criterionId": "S1-01",
+          "status": "FAILED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-02",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-03",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-01",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-02",
+          "status": "FAILED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-03",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-01",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-02",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-03",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-01",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-02",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-03",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-01",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-02",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-03",
+          "status": "PASSED",
+          "userNotes": "Kiểm tra định kỳ CLB",
+          "isOverriddenFromAI": false
+        }
+      ],
+      "createdAt": "2026-10-28T12:06:00.118Z"
+    },
+    {
+      "id": "INSP-20261029-05",
+      "roomId": "PTH01",
+      "roomName": "Phòng thực hành 1",
+      "roomType": "LAB",
+      "inspectorId": "admin_tcnh",
+      "inspectorName": "TS. Nguyễn Văn Thịnh",
+      "inspectorRole": "ADMIN",
+      "evaluationSource": "AI_ASSISTED",
+      "aiModel": "gemini-3.8-flash",
+      "officialScore": 92.9,
+      "officialResult": "EXCELLENT",
+      "totalCriteria": 15,
+      "applicableCriteria": 14,
+      "passedCriteria": 13,
+      "failedCriteria": 1,
+      "naCriteria": 1,
+      "photos": [],
+      "decisions": [
+        {
+          "criterionId": "S1-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-03",
+          "status": "NOT_APPLICABLE",
+          "naReason": "Không có thiết bị hỏng trong phòng",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-03",
+          "status": "FAILED",
+          "userNotes": "Còn 1 dây nối dài máy chiếu chưa quấn nẹp",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        }
+      ],
+      "createdAt": "2026-10-29T12:06:00.118Z"
+    },
+    {
+      "id": "INSP-20261029-06",
+      "roomId": "KTS",
+      "roomName": "Không gian lưu trữ số của khoa",
+      "roomType": "OFFICE",
+      "inspectorId": "lecturer_tcnh",
+      "inspectorName": "ThS. Lê Hoàng Hải",
+      "inspectorRole": "LECTURER",
+      "evaluationSource": "MANUAL",
+      "officialScore": 85.7,
+      "officialResult": "EXCELLENT",
+      "totalCriteria": 15,
+      "applicableCriteria": 14,
+      "passedCriteria": 12,
+      "failedCriteria": 2,
+      "naCriteria": 1,
+      "photos": [],
+      "decisions": [
+        {
+          "criterionId": "S1-01",
+          "status": "NOT_APPLICABLE",
+          "naReason": "Phòng máy chủ số, không có đồ dùng cá nhân",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-01",
+          "status": "FAILED",
+          "userNotes": "Cần dán thêm nhãn ổ đĩa sao lưu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-02",
+          "status": "FAILED",
+          "userNotes": "Cần dán thêm nhãn ổ đĩa sao lưu",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        }
+      ],
+      "createdAt": "2026-10-29T12:06:00.118Z"
+    },
+    {
+      "id": "INSP-20261030-07",
+      "roomId": "VPK",
+      "roomName": "Văn phòng khoa",
+      "roomType": "OFFICE",
+      "inspectorId": "admin_tcnh",
+      "inspectorName": "TS. Nguyễn Văn Thịnh",
+      "inspectorRole": "ADMIN",
+      "evaluationSource": "AI_ASSISTED",
+      "aiModel": "gemini-3.8-flash",
+      "officialScore": 93.3,
+      "officialResult": "EXCELLENT",
+      "totalCriteria": 15,
+      "applicableCriteria": 15,
+      "passedCriteria": 14,
+      "failedCriteria": 1,
+      "naCriteria": 0,
+      "photos": [],
+      "decisions": [
+        {
+          "criterionId": "S1-01",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-02",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-03",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-01",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-02",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-03",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-01",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-02",
+          "status": "FAILED",
+          "userNotes": "Thùng rác giấy photo cần thay túi mới",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-03",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-01",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-02",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-03",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-01",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-02",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-03",
+          "status": "PASSED",
+          "userNotes": "Đạt chuẩn",
+          "isOverriddenFromAI": false
+        }
+      ],
+      "createdAt": "2026-10-30T12:06:00.118Z"
+    },
+    {
+      "id": "INSP-20261030-08",
+      "roomId": "PTH02",
+      "roomName": "Phòng thực hành 2",
+      "roomType": "LAB",
+      "inspectorId": "admin_tcnh",
+      "inspectorName": "TS. Nguyễn Văn Thịnh",
+      "inspectorRole": "ADMIN",
+      "evaluationSource": "AI_ASSISTED",
+      "aiModel": "gemini-3.8-flash",
+      "officialScore": 80,
+      "officialResult": "PASSED",
+      "totalCriteria": 15,
+      "applicableCriteria": 15,
+      "passedCriteria": 12,
+      "failedCriteria": 3,
+      "naCriteria": 0,
+      "photos": [],
+      "decisions": [
+        {
+          "criterionId": "S1-01",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-02",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-03",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-01",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-02",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-03",
+          "status": "FAILED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-01",
+          "status": "FAILED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-02",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-03",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-01",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-02",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-03",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-01",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-02",
+          "status": "FAILED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-03",
+          "status": "PASSED",
+          "userNotes": "Đã tiến bộ so với tuần trước",
+          "isOverriddenFromAI": false
+        }
+      ],
+      "createdAt": "2026-10-30T12:06:00.118Z"
+    },
+    {
+      "id": "INSP-20261031-09",
+      "roomId": "PTH01",
+      "roomName": "Phòng thực hành 1",
+      "roomType": "LAB",
+      "inspectorId": "lecturer_tcnh",
+      "inspectorName": "ThS. Lê Hoàng Hải",
+      "inspectorRole": "LECTURER",
+      "evaluationSource": "MANUAL",
+      "officialScore": 93.3,
+      "officialResult": "EXCELLENT",
+      "totalCriteria": 15,
+      "applicableCriteria": 15,
+      "passedCriteria": 14,
+      "failedCriteria": 1,
+      "naCriteria": 0,
+      "photos": [],
+      "decisions": [
+        {
+          "criterionId": "S1-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-03",
+          "status": "FAILED",
+          "userNotes": "Dây mạng bàn giáo viên hơi vướng chân",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        }
+      ],
+      "createdAt": "2026-10-31T12:06:00.119Z"
+    },
+    {
+      "id": "INSP-20261031-10",
+      "roomId": "FBC",
+      "roomName": "Không gian sinh hoạt CLB FBC",
+      "roomType": "MEETING",
+      "inspectorId": "student_fbc",
+      "inspectorName": "Vũ Minh Tuấn",
+      "inspectorRole": "STUDENT",
+      "evaluationSource": "MANUAL",
+      "officialScore": 93.3,
+      "officialResult": "EXCELLENT",
+      "totalCriteria": 15,
+      "applicableCriteria": 15,
+      "passedCriteria": 14,
+      "failedCriteria": 1,
+      "naCriteria": 0,
+      "photos": [],
+      "decisions": [
+        {
+          "criterionId": "S1-01",
+          "status": "FAILED",
+          "userNotes": "Còn một số banner sự kiện cũ để góc bàn",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S1-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S2-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S3-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S4-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-01",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-02",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        },
+        {
+          "criterionId": "S5-03",
+          "status": "PASSED",
+          "userNotes": "Đạt",
+          "isOverriddenFromAI": false
+        }
+      ],
+      "createdAt": "2026-10-31T12:06:00.119Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TASK-01",
+      "inspectionId": "INSP-20261025-01",
+      "roomId": "PTH01",
+      "roomName": "Phòng thực hành 1",
+      "criterionId": "S2-03",
+      "criterionCode": "S2-03",
+      "criterionName": "Lối đi thông thoáng, dây điện gọn gàng",
+      "issueDescription": "Dây điện máy tính dãy 2 còn thõng xuống lối đi, nguy cơ vướng ngã",
+      "recommendation": "Sử dụng nẹp bán nguyệt và dây rút gom cáp gọn gàng vào chân bàn",
+      "assignedTo": "Chờ phân công",
+      "status": "PENDING",
+      "beforePhotos": [
+        "https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&auto=format&fit=crop&q=60"
+      ],
+      "createdAt": "2026-10-25T12:06:00.119Z",
+      "updatedAt": "2026-10-25T12:06:00.119Z"
+    },
+    {
+      "id": "TASK-02",
+      "inspectionId": "INSP-20261026-02",
+      "roomId": "VPK",
+      "roomName": "Văn phòng khoa",
+      "criterionId": "S1-02",
+      "criterionCode": "S1-02",
+      "criterionName": "Rà soát và phân loại tài liệu theo nhu cầu",
+      "issueDescription": "Tập hồ sơ biểu mẫu cũ chưa dán nhãn phân loại năm học",
+      "recommendation": "Dán nhãn gáy hồ sơ màu xanh theo chuẩn lưu trữ của khoa",
+      "assignedTo": "Chờ phân công",
+      "status": "IN_PROGRESS",
+      "beforePhotos": [],
+      "actionNotes": "Đang chuẩn bị nhãn in mẫu mới của khoa",
+      "createdAt": "2026-10-26T12:06:00.119Z",
+      "updatedAt": "2026-10-29T12:06:00.119Z"
+    },
+    {
+      "id": "TASK-03",
+      "inspectionId": "INSP-20261027-03",
+      "roomId": "PTH02",
+      "roomName": "Phòng thực hành 2",
+      "criterionId": "S3-01",
+      "criterionCode": "S3-01",
+      "criterionName": "Vệ sinh bàn, tủ, sàn nhà và thiết bị",
+      "issueDescription": "Mặt bàn phím dãy 1 bám bụi phấn và vết bẩn",
+      "recommendation": "Dùng khăn vi sợi và dung dịch vệ sinh chuyên dụng lau sạch toàn bộ bàn phím",
+      "assignedTo": "Chờ phân công",
+      "status": "PENDING_VERIFICATION",
+      "beforePhotos": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=60"
+      ],
+      "afterPhotos": [
+        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60"
+      ],
+      "actionNotes": "Đã tổng vệ sinh lau chùi toàn bộ dãy bàn phím và màn hình sáng nay.",
+      "createdAt": "2026-10-27T12:06:00.119Z",
+      "updatedAt": "2026-10-30T12:06:00.119Z"
+    },
+    {
+      "id": "TASK-04",
+      "inspectionId": "INSP-20261028-04",
+      "roomId": "FBC",
+      "roomName": "Không gian sinh hoạt CLB FBC",
+      "criterionId": "S2-02",
+      "criterionCode": "S2-02",
+      "criterionName": "Thiết bị dùng chung được bố trí thuận tiện",
+      "issueDescription": "Bút viết bảng và micro để lẫn lộn trong khay tài liệu",
+      "recommendation": "Bố trí hộp đựng bút chuyên dụng cạnh bảng treo tường",
+      "assignedTo": "Vũ Minh Tuấn",
+      "status": "VERIFIED_DONE",
+      "beforePhotos": [],
+      "afterPhotos": [],
+      "actionNotes": "Đã mua hộp đựng bút từ tính gắn trực tiếp lên bảng.",
+      "verifiedBy": "TS. Nguyễn Văn Thịnh",
+      "verifiedAt": "2026-10-30T12:06:00.119Z",
+      "createdAt": "2026-10-28T12:06:00.119Z",
+      "updatedAt": "2026-10-30T12:06:00.119Z"
+    },
+    {
+      "id": "TASK-05",
+      "inspectionId": "INSP-20261025-01",
+      "roomId": "PTH01",
+      "roomName": "Phòng thực hành 1",
+      "criterionId": "S3-03",
+      "criterionCode": "S3-03",
+      "criterionName": "Khu vực được vệ sinh và thu dọn sau khi sử dụng",
+      "issueDescription": "Thùng rác cuối phòng chứa đầy rác chưa đổ sau ca học chiều",
+      "recommendation": "Đổ rác định kỳ và thay túi rác mới cuối mỗi buổi học",
+      "assignedTo": "Chờ phân công",
+      "status": "PENDING",
+      "beforePhotos": [],
+      "createdAt": "2026-10-25T12:06:00.119Z",
+      "updatedAt": "2026-10-25T12:06:00.119Z"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "SCH-01",
+      "roomId": "PTH01",
+      "roomName": "Phòng thực hành 1",
+      "inspectorName": "ThS. Lê Hoàng Hải",
+      "frequency": "WEEKLY",
+      "dueDate": "2026-11-01",
+      "notes": "Kiểm tra 5S định kỳ trước giờ thi chứng chỉ ngân hàng",
+      "status": "PENDING"
+    },
+    {
+      "id": "SCH-02",
+      "roomId": "VPK",
+      "roomName": "Văn phòng khoa",
+      "inspectorName": "TS. Nguyễn Văn Thịnh",
+      "frequency": "WEEKLY",
+      "dueDate": "2026-11-02",
+      "notes": "Rà soát tài liệu phục vụ kiểm định chất lượng",
+      "status": "PENDING"
+    },
+    {
+      "id": "SCH-03",
+      "roomId": "PTH02",
+      "roomName": "Phòng thực hành 2",
+      "inspectorName": "Vũ Minh Tuấn",
+      "frequency": "MONTHLY",
+      "dueDate": "2026-10-30",
+      "notes": "Kiểm tra tổng thể thiết bị CNTT phòng thực hành 2",
+      "status": "OVERDUE"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-01",
+      "title": "Lịch kiểm tra sắp đến hạn",
+      "message": "Phòng thực hành 1 có lịch kiểm tra 5S định kỳ vào ngày mai.",
+      "type": "SCHEDULE",
+      "link": "PTH01",
+      "isRead": false,
+      "createdAt": "2026-10-31T10:06:00.119Z"
+    },
+    {
+      "id": "NOTIF-02",
+      "title": "Nhiệm vụ khắc phục cần nghiệm thu",
+      "message": "Phòng thực hành 2 đã gửi ảnh sau khắc phục vệ sinh bàn phím. Vui lòng kiểm tra và xác nhận.",
+      "type": "TASK_VERIFICATION",
+      "link": "TASK-03",
+      "isRead": false,
+      "createdAt": "2026-10-31T07:06:00.119Z"
+    },
+    {
+      "id": "NOTIF-03",
+      "title": "Nhiệm vụ khắc phục quá hạn",
+      "message": "Nhiệm vụ đổ rác tại Phòng thực hành 1 đã quá hạn xử lý 3 ngày.",
+      "type": "OVERDUE_TASK",
+      "link": "TASK-05",
+      "isRead": true,
+      "createdAt": "2026-10-30T12:06:00.119Z"
+    }
+  ],
+  "settings": {
+    "facultyName": "Khoa Tài chính – Ngân hàng và Bảo hiểm",
+    "universityName": "Trường Đại học Kinh tế – Kỹ thuật Công nghiệp (UNETI)",
+    "logoUrl": "",
+    "primaryColor": "#1d4ed8",
+    "passThreshold": 80,
+    "defaultTaskDeadlineDays": 3,
+    "allowStudentInspection": true,
+    "isDemoMode": true,
+    "googleDriveFolderUrl": "https://drive.google.com/drive/folders/1Dy4EwqX6Xj4_VsPrUG7UTHPpOUlZA2Nt?usp=sharing",
+    "googleDriveFolderId": "1Dy4EwqX6Xj4_VsPrUG7UTHPpOUlZA2Nt"
+  },
+  "users": [
+    {
+      "id": "admin_pdtai",
+      "name": "TS. Phạm Đức Tài",
+      "email": "pdtai@uneti.edu.vn",
+      "role": "ADMIN",
+      "roleTitle": "Đầu mối 5S / Quản trị viên",
+      "department": "Khoa Tài chính – Ngân hàng và Bảo hiểm"
+    },
+    {
+      "id": "leader_ptlhuong",
+      "name": "TS. Phùng Thị Lan Hương",
+      "email": "ptlhuong@uneti.edu.vn",
+      "role": "LEADER",
+      "roleTitle": "Trưởng khoa",
+      "department": "Khoa Tài chính – Ngân hàng và Bảo hiểm"
+    },
+    {
+      "id": "lecturer_ptpthao",
+      "name": "ThS. Phạm Thị Phương Thảo",
+      "email": "ptpthao@uneti.edu.vn",
+      "role": "LECTURER",
+      "roleTitle": "Giảng viên (Công đoàn)",
+      "department": "Khoa Tài chính – Ngân hàng và Bảo hiểm"
+    },
+    {
+      "id": "lecturer_tnchan",
+      "name": "Trương Ngọc Chân",
+      "email": "tnchan@uneti.edu.vn",
+      "role": "LECTURER",
+      "roleTitle": "Giảng viên",
+      "department": "Khoa Tài chính – Ngân hàng và Bảo hiểm"
+    },
+    {
+      "id": "lecturer_dtbinh",
+      "name": "Dương Thanh Bình",
+      "email": "dtbinh.tcnh@uneti.edu.vn",
+      "role": "LECTURER",
+      "roleTitle": "Giảng viên",
+      "department": "Khoa Tài chính – Ngân hàng và Bảo hiểm"
+    },
+    {
+      "id": "lecturer_vthuong",
+      "name": "Vũ Thanh Hương",
+      "email": "vthuong@uneti.edu.vn",
+      "role": "LECTURER",
+      "roleTitle": "Giảng viên",
+      "department": "Khoa Tài chính – Ngân hàng và Bảo hiểm"
+    },
+    {
+      "id": "lecturer_ntmai",
+      "name": "Nguyễn Thị Mai",
+      "email": "ntmai@uneti.edu.vn",
+      "role": "LECTURER",
+      "roleTitle": "Giảng viên",
+      "department": "Khoa Tài chính – Ngân hàng và Bảo hiểm"
+    },
+    {
+      "id": "lecturer_ptnmai",
+      "name": "Phạm Thị Ngọc Mai",
+      "email": "ptnmai@uneti.edu.vn",
+      "role": "LECTURER",
+      "roleTitle": "Giảng viên",
+      "department": "Khoa Tài chính – Ngân hàng và Bảo hiểm"
+    },
+    {
+      "id": "lecturer_txhuy",
+      "name": "Trần Xuân Huy",
+      "email": "txhuy@uneti.edu.vn",
+      "role": "LECTURER",
+      "roleTitle": "Giảng viên",
+      "department": "Khoa Tài chính – Ngân hàng và Bảo hiểm"
+    },
+    {
+      "id": "student_fbc",
+      "name": "Sinh viên CLB TCNH&BH",
+      "email": "clb.tcnh@uneti.edu.vn",
+      "role": "STUDENT",
+      "roleTitle": "Sinh viên / Hỗ trợ 5S",
+      "department": "CLB Tài chính Ngân hàng trẻ – Khoa TCNH&BH"
+    }
+  ]
+}
